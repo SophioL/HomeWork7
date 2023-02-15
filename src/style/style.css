@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bus_body{
+    width: 700px;
+    height: 250px;
+    border: 4px solid;
+    border-radius: 3%;
+    background-color: darkgoldenrod;
+    animation-name: MyBus;
+    animation-duration: 4s;
+    display: flex;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 10px;
+}
+.bus_window{
+    width: 60px;
+    height: 100px;
+    border: 4px solid;
+    border-radius: 3%;
+    background-color: lightblue;
+}
+.bus_door{
+    width: 60px;
+    height: 230px;
+    border: 4px solid;
+    border-radius: 10%;
+    background: rgb(184,134,11);
+    background: linear-gradient(0deg, rgba(184,134,11,1) 54%, rgba(173,216,230,1) 58%);
+}
+.bus_wheel{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.mini_wheel{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 3px solid;
+    background-color: gray;
+}
+.line{
+    position: absolute;
+    width: 4%;
+    height: 6px;
+    background-color: gray;
+}
+@keyframes MyBus{
+
+}
